@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  iocco_api:
+    image: ${DOCKER_REGISTRY-}ioccoapi
+    build:
+      context: .\iocco_api
+      dockerfile: Dockerfile
+      ports:
+      - 44399:80
+

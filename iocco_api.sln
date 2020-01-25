@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iocco_api", "iocco_api\iocc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iocco_api.Tests", "iocco_api.Tests\iocco_api.Tests.csproj", "{B9E147AF-5FCC-4DAF-A7C6-880D482DA23F}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0A1845AF-606E-4004-8B83-DE554796EC45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B9E147AF-5FCC-4DAF-A7C6-880D482DA23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E147AF-5FCC-4DAF-A7C6-880D482DA23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E147AF-5FCC-4DAF-A7C6-880D482DA23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1845AF-606E-4004-8B83-DE554796EC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1845AF-606E-4004-8B83-DE554796EC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1845AF-606E-4004-8B83-DE554796EC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1845AF-606E-4004-8B83-DE554796EC45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

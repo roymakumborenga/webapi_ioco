@@ -11,23 +11,8 @@ using iocco_api.Controllers;
 namespace iocco_api.Tests.Controllers
 {
     [TestClass]
-    public class ValuesControllerTest
+    public class EmployeesControllerTest
     {
-        [TestMethod]
-        public void Get()
-        {
-            // Arrange
-            ValuesController controller = new ValuesController();
-
-            // Act
-            IEnumerable<string> result = controller.Get();
-
-            // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count());
-            Assert.AreEqual("value1", result.ElementAt(0));
-            Assert.AreEqual("value2", result.ElementAt(1));
-        }
 
         [TestMethod]
         public void GetById()
